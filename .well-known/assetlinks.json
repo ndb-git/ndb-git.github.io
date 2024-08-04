@@ -1,0 +1,12 @@
+[
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.ndb.secret",
+			"sha256_cert_fingerprints": [
+				"ED:8C:B7:95:51:68:C0:9C:CE:4C:1B:3B:9C:96:0F:5C:BD:F3:27:00:F0:DB:F6:6B:49:E1:BC:8D:AE:02:AA:41"
+			]
+		}
+	}
+]
