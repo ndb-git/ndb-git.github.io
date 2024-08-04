@@ -1,0 +1,32 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appIDs": [
+					"PV96D382KV.com.ndb.secret"
+				],
+				"components": [
+					{
+						"#": "/*",
+						"comment": "Matches any URL as a universal link"
+					}
+				],
+				"appID": "PV96D382KV.com.ndb.secret",
+				"paths": [
+					"/"
+				]
+			}
+		]
+	},
+	"activitycontinuation": {
+		"apps": [
+			"PV96D382KV.com.ndb.secret"
+		]
+	},
+	"webcredentials": {
+		"apps": [
+			"PV96D382KV.com.ndb.secret"
+		]
+	}
+}
