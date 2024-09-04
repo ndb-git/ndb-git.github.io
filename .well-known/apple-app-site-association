@@ -25,3 +25,31 @@
     ]
   }
 }
+
+// {
+//   "applinks": {
+//     "details": [
+//       {
+//         "appIDs": [
+//           "PV96D382KV.com.ndb.kamaswipe"
+//         ],
+//         "components": [
+//           {
+//             "/": "*",
+//             "comment": "Matches all routes"
+//           }
+//         ]
+//       }
+//     ]
+//   },
+//   "activitycontinuation": {
+//     "apps": [
+//       "PV96D382KV.com.ndb.kamaswipe"
+//     ]
+//   },
+//   "webcredentials": {
+//     "apps": [
+//       "PV96D382KV.com.ndb.kamaswipe"
+//     ]
+//   }
+// }
