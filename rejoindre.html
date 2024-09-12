@@ -12,13 +12,14 @@
             background-image: url("./background.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            color: #fff;
+            color: #333; /* Un gris foncé pour le texte principal */
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            background-color: #f5f5f5; /* Un gris très clair */
         }
         .container {
             text-align: center;
@@ -38,9 +39,24 @@
             object-fit: contain;
         }
         h1 {
-            color: #C70039;
-            margin-bottom: 1.5rem;
-            font-size: 2.2rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2c3e50; /* Un bleu foncé pour les titres */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+            transition: transform 0.3s ease;
+        }
+        h1 span {
+            display: inline-block;
+            transition: transform 0.3s ease, font-weight 0.3s ease;
+        }
+        h1:hover span {
+            transform: scale(1.05);
+        }
+        h1:hover span.highlight {
+            font-weight: 900;
+            transform: scale(1.1);
+            color: #ff0048; /* Une couleur différente pour 'Jennifer', ajustez selon vos préférences */
         }
         p {
             margin-bottom: 1.5rem;
@@ -102,11 +118,22 @@
                 padding: 10px 20px;
             }
         }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Jennifer vous invite à la rejoindre sur Secret</h1>
+        <h1 class="fade-in">
+            <span>Jennifer vous invite à la rejoindre sur Secret</span>
+        </h1>
         <p>Découvrez une nouvelle façon de raviver la flamme et de pimenter votre vie de couple.</p>
         <p>Secret est l'application intime qui transformera votre relation.</p>
         <p>Prêt(e) à vivre des moments inoubliables avec Jennifer ?</p>
